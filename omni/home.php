@@ -75,8 +75,8 @@
 
 <div id="publikasi" class="container">
 	<div class="owl-carousel owl-theme">
-  	<div class="item" data-merge="3"><img src="http://via.placeholder.com/1000x500"></div>
-     <div class="item" data-merge="1"><img src="http://via.placeholder.com/1000X500"><img src="http://via.placeholder.com/1000X500"><img src="http://via.placeholder.com/1000X500"></div>
+  	<div class="item" data-merge="3"><img src="img/gambar1.jpg"></div>
+     <div class="item" data-merge="1"><img src="img/gambar2.jpg"><img src="img/gambarkecil.jpg"><img src="img/gambarkecil2.jpg"></div>
     
 	</div>
 
