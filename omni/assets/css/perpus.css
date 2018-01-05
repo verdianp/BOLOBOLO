@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Crimson+Text');
+@import url('https://fonts.googleapis.com/css?family=Lora');
+
+.atas-perpustakaan-katalog{
+  width: 226px;
+  
+  font-family: 'Open Sans', sans-serif;
+  font-size: 25px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 1px;
+  text-align: left;
+  color: #262626;
+  color: var(--black);
+  position: relative;
+}
+.bag-atas{
+  margin-top: 60px;
+  
+}
+.samping-judul-katalog{
+  margin-left: 226px;
+  margin-top: -65px;
+
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.79;
+  letter-spacing: 0.5px;
+  text-align: left;
+  color: #2c2f30;
+}
+.utama6{
+  margin-left: 150px;
+  margin-right: 150px;
+}
+.bagian-judul-buku{
+  font-family: 'OpenSans', sans-serif;
+  
+  font-size: 32px;
+  
+  font-style: normal;
+  
+  line-height: 1.22;
+  letter-spacing: normal;
+  text-align: left;
+  color: #262626;
+  color: var(--black);
+}
+
+.bagian-buku{
+  margin-top: 60px;
+  
+}
+.keseluruhan{
+  width: 1400px;
+}
+.foto1{
+  width: 206px;
+  height: 242px;
+  background-color: black;
+  margin-top: -174px;
+
+}
+.foto2{
+ width: 206px;
+ height: 242px;
+}
+.sesuatu{
+  width: 593px;
+  background-color: white;
+  padding-top: 20px;
+}
+.judul-buku{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 17px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.5px;
+  text-align: left;
+  color: #262626;
+  color: var(--black);
+  margin-left: 70px;
+
+}
+.pembuat{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 11px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 1px;
+  text-align: left;
+  color: #5495e3;
+  margin-left: 235px;
+  margin-top: 5px;
+}
+.deskripsi{
+  font-family: 'Lora',serif;
+  font-size: 15px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.67;
+  letter-spacing: 0.5px;
+  text-align: left;
+  color: #2c2f30;
+  margin-left: 235.5px;
+  margin-top: 16px;
+}
+.selengkapnya{
+  text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+  
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2.08;
+  letter-spacing: 0.5px;
+  margin: 0, auto;
+  margin-left: 23px;
+  margin-top: 5px;
+
+  color: #5495e3;
+
+}
+.bumi-langit{
+  margin-top: 20px;
+}

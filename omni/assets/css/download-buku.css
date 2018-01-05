@@ -1,0 +1,118 @@
+@charset 'UTF-8';
+@font-face{
+	font-family: 'OpenSans-Bold';
+	src: url('../font/OpenSans-Bold.ttf');
+}
+@font-face{
+	font-family: 'OpenSans-Semibold';
+	src: url('../font/OpenSans-Semibold.ttf');
+}
+@font-face{
+	font-family: 'OpenSans-Regular';
+	src: url('../font/OpenSans-Regular.ttf');
+}
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'OpenSans-Regular';
+}
+
+#deskripsi{
+	padding: 50px 0;
+}
+#deskripsi .img-box{
+	width: 100%;
+	height: 100%;
+}
+#deskripsi .img{
+	height: 100%;
+	width: 100%;
+}
+#deskripsi .judul-buku{
+  	font-family: 'OpenSans-Regular';
+  	font-size: 36px;
+  	font-weight: 600;
+  	line-height: 1.22;
+  	letter-spacing: normal;
+  	color: #262626;
+}
+#deskripsi .pembuat-buku{
+	margin-top: 15px;
+  	font-family: 'OpenSans-Regular';
+  	font-size: 11px;
+  	font-weight: 600;
+  	letter-spacing: 1px;
+  	color: #b3b3b3;
+}
+#deskripsi .bintang{
+	margin-top: 20px;
+	display: flex;
+}
+#deskripsi .bintang-buku{
+	width: 17px;
+  	height: 15px;
+}
+#deskripsi .tentang-buku{
+	margin-top: 25px;
+  	font-family: 'OpenSans-Regular';
+  	font-size: 15px;
+  	line-height: 1.67;
+  	letter-spacing: 0.5px;
+  	text-align: left;
+  	color: #2c2f30;
+}
+#deskripsi .detail-buku{
+	margin: 30px 0;
+}
+#deskripsi .detail-buku table{
+	width: 50%;
+}
+#deskripsi .detail-buku table th{
+	text-transform: uppercase;
+  	font-family: 'OpenSans-Regular';
+  	font-size: 11px;
+  	font-weight: 600;
+  	letter-spacing: 1px;
+  	color: #b3b3b3;
+}
+#deskripsi .detail-buku table td{
+  	font-family: 'OpenSans-Regular';
+  	font-size: 15px;
+  	line-height: 1.67;
+  	letter-spacing: 0.5px;
+  	color: #2c2f30;
+}
+#deskripsi .btn-download{
+	margin-top: 15px;
+  	font-family: 'OpenSans-Regular';
+  	padding: 5px 25px;
+  	font-size: 15px;
+  	font-weight: 600;
+  	line-height: 1.67;
+  	letter-spacing: 1px;
+  	color: #ffffff;
+  	background-color: #5495e3;
+}
+#deskripsi .btn-download:hover{
+	opacity: .8;
+}
+#deskripsi .keterangan-file{
+	margin-top: 15px;
+	margin-bottom: 80px;
+  	font-family: 'OpenSans-Regular';
+  	font-size: 11px;
+  	line-height: 1.82;
+  	letter-spacing: 0.4px;
+  	color: #5b5f61;
+}
+#buku{
+	padding-bottom: 50px;
+	background-color: #ffffff;
+}
+#buku .title{
+	color: #262626;
+	margin-top: 50px;
+}
+#buku .img-box-buku{
+	height: 350px;
+}

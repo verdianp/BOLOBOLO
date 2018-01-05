@@ -1,0 +1,139 @@
+@charset 'UTF-8';
+@font-face{
+	font-family: 'OpenSans-Bold';
+	src: url('../font/OpenSans-Bold.ttf');
+}
+@font-face{
+	font-family: 'OpenSans-Semibold';
+	src: url('../font/OpenSans-Semibold.ttf');
+}
+@font-face{
+	font-family: 'OpenSans-Regular';
+	src: url('../font/OpenSans-Regular.ttf');
+}
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'OpenSans-Regular';
+}
+
+#berita-publikasi .header-berita{
+	display: flex;
+	align-items: center;
+	padding-bottom: 50px;
+}
+#berita-publikasi .title-beritaPublikasi{
+  	font-family: 'OpenSans-Regular';
+  	font-size: 25px;
+  	letter-spacing: 1px;
+  	color: #262626;
+  	margin-top: 20px;
+}
+#berita-publikasi .iklan{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+  	height: 90px;
+  	border-radius: 3px;
+  	background-color: #f5f5f5;
+}
+#berita-publikasi .content-publikasiBerita{
+	margin-top: 15px;
+	padding: 85px 0;
+	background-color: #f9fcff;
+}
+#berita-publikasi .title-berita{
+	margin-top: 15px;
+  	font-family: 'OpenSans-Semibold';
+  	font-size: 32px;
+  	font-weight: 600;
+  	letter-spacing: 1.3px;  
+  	color: #262626;
+}
+#berita-publikasi .isi-berita{
+	margin-top: 30px;
+	font-family: 'OpenSans-Regular';
+  	font-size: 15px;
+  	line-height: 1.67;
+  	letter-spacing: 0.5px;
+    color: #2c2f30;
+}
+#berita-publikasi .tanggal{
+	margin-top: 85px;
+}
+#berita-publikasi .pembuat span{
+  	color: #b3b3b3;
+}
+#berita-publikasi .gambar-berita{
+	width: 100%;
+	height: 422px;
+}
+#berita-publikasi .berita-img{
+	width: 100%;
+	height: 100%;
+}
+
+#fiturPublikasi{
+	padding: 50px 0;
+}
+#fiturPublikasi .icon-cari{
+	width: 20px;
+  	height: 20px;
+}
+#fiturPublikasi .cari-img{
+	width: 100%;
+	height: 100%;
+}
+#fiturPublikasi .box-cari{
+  	font-family: 'OpenSans-Regular';
+  	font-size: 14px;
+  	font-style: italic;
+  	letter-spacing: 0.5px;  
+  	color: #99a3ac;
+  	border: none;
+}
+#kategoriPublikasi .kategori-title{
+  	font-family: 'OpenSans-Semibold';
+  	font-size: 14px;
+  	letter-spacing: 1px;
+  	color: #262626;
+}
+#kategoriPublikasi .link-kategori{
+	display: flex;
+}
+#kategoriPublikasi .kategori-link{
+	text-decoration: none;
+	padding: 0 30px;
+  	font-family: 'OpenSans-Regular';
+  	font-size: 16px;
+  	letter-spacing: 0.5px;	
+  	color: #262626;
+}
+#kategoriPublikasi .kategori-link:hover{
+  	font-family: 'OpenSans-Semibold';
+  	color: #5495e3;
+  	text-decoration: none;
+}
+
+#advertising .title-berita{
+	margin-top: 15px;
+  	font-family: 'OpenSans-Semibold';
+  	font-size: 26px;
+  	font-weight: 600;
+  	line-height: 1.21;
+  	letter-spacing: 0.5px;
+ 	color: #262626;
+}
+#advertising .gambar-kategori{
+	height: 260px;
+	margin-bottom: 20px;
+	margin-top: 25px;
+}
+#advertising .img-kategori{
+	width: 100%;
+	height: 100%;
+}
+#advertising .tanggal{
+	margin-top: 20px;
+}
